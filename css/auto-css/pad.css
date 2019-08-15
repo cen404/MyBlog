@@ -1,0 +1,107 @@
+#main {
+    width: 100%;
+}
+
+.nav {
+    width: 250px;
+    height: 100vh+30px;
+    z-index: 10;
+}
+
+.user_img {
+    margin-top: 150px;
+}
+
+.icon_facebook,
+.icon_github,
+.icon_twitter {
+    margin-left: 45px;
+}
+
+.content {
+    width: 80%;
+    left: 270px;
+}
+
+#content_about {
+    height: 800px;
+}
+
+.container {
+    width: 80%;
+    height: 800px;
+}
+
+.service_item {
+    width: 45%;
+    height: 37%;
+    margin-left: 3.5%;
+}
+
+.item_first_icon,
+.item_second_icon,
+.item_third_icon,
+.item_fourth_icon {
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+h4 {
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+p {
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.service_item:hover .item_first_icon {
+    background-image: url(../../images/first-main-icon.png);
+}
+
+.service_item:hover .item_second_icon {
+    background-image: url(../../images/second-main-icon.png);
+}
+
+.service_item:hover .item_third_icon {
+    background-image: url(../../images/third-main-icon.png);
+}
+
+.service_item:hover .item_fourth_icon {
+    background-image: url(../../images/fourth-main-icon.png);
+}
+
+#content_photoes {
+    height: 750px;
+    margin-top: 10px;
+}
+
+.photoes_album {
+    width: 80%;
+    height: 750px;
+    margin-left: 0;
+}
+
+.section_one,
+.section_two,
+.section_three,
+.section_four,
+.section_five,
+.section_six {
+    width: 30%;
+    height: 23%;
+}
+
+#content_log {
+    margin-top: 10px;
+}
+
+.article_list {
+    width: 80%;
+    padding-top: 30px;
+}
